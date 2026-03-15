@@ -1,0 +1,11 @@
+package com.example.P26.user;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+@Getter
+@NoArgsConstructor
+public class UserLoginRequest {
+    private String username;
+    private String password;
+}
